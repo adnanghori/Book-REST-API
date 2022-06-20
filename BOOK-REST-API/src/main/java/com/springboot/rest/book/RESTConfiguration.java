@@ -21,7 +21,7 @@ import com.springboot.rest.book.model.Book;
 @ComponentScan(basePackages = "com.springboot.rest.book")
 @EnableWebMvc
 @EnableTransactionManagement(proxyTargetClass = true)
-@EntityScan(basePackages = "cpm.springboot.rest.book")
+@EntityScan(basePackages = "com.springboot.rest.book")
 public class RESTConfiguration  {
 //	@Value("${db.driver}")
 //    private String DRIVER;

@@ -21,7 +21,8 @@ import com.springboot.rest.book.service.BookService;
 public class BookController {
 	@Autowired
 	private BookService bookService;
-		
+	
+
 	@GetMapping(value = "/books")
 	public ResponseEntity<List<Book>> getBooks() {
 		List<Book> allBooks = this.bookService.getAllBooks();
